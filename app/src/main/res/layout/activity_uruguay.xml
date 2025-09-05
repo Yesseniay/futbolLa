@@ -19,7 +19,7 @@
         android:textSize="34sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="37dp" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <ImageButton
         android:id="@+id/naranjaButton"
