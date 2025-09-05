@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FA020A3F"
-    tools:context=".equipos_argentina">
+    tools:context=".equipos_chile">
 
     <!-- Titulo -->
 
@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Equipos de Argentina"
+        android:text="Equipos de Chile"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +33,7 @@
         android:scaleType="centerInside"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView"
-        app:srcCompat="@drawable/boca" />
+        app:srcCompat="@drawable/colo_colo" />
 
     <ImageButton
         android:id="@+id/btn_u.chile"
@@ -43,7 +43,7 @@
         android:scaleType="centerInside"
         app:layout_constraintStart_toEndOf="@id/btn_colo"
         app:layout_constraintTop_toTopOf="@id/btn_colo"
-        app:srcCompat="@drawable/river" />
+        app:srcCompat="@drawable/u" />
 
     <ImageButton
         android:id="@+id/btn_iquique"
@@ -53,7 +53,7 @@
         android:scaleType="centerInside"
         app:layout_constraintStart_toEndOf="@id/btn_u.chile"
         app:layout_constraintTop_toTopOf="@id/btn_u.chile"
-        app:srcCompat="@drawable/racing" />
+        app:srcCompat="@drawable/iquique" />
 
     <!-- Botones fila 2 -->
 
@@ -65,7 +65,7 @@
         android:scaleType="centerInside"
         app:layout_constraintStart_toStartOf="@id/btn_colo"
         app:layout_constraintTop_toBottomOf="@id/btn_colo"
-        app:srcCompat="@drawable/estudiantes" />
+        app:srcCompat="@drawable/catolica" />
 
     <ImageButton
         android:id="@+id/btn_cobresal"
@@ -75,7 +75,7 @@
         android:scaleType="centerInside"
         app:layout_constraintStart_toEndOf="@id/btn_catolica"
         app:layout_constraintTop_toTopOf="@id/btn_catolica"
-        app:srcCompat="@drawable/huracan" />
+        app:srcCompat="@drawable/cobresal" />
 
     <ImageButton
         android:id="@+id/btn_palestino"
@@ -85,7 +85,7 @@
         android:scaleType="centerInside"
         app:layout_constraintStart_toEndOf="@id/btn_cobresal"
         app:layout_constraintTop_toTopOf="@id/btn_cobresal"
-        app:srcCompat="@drawable/velez" />
+        app:srcCompat="@drawable/palestino" />
 
     <!-- Botones fila 3 -->
 
@@ -97,7 +97,7 @@
         android:scaleType="centerInside"
         app:layout_constraintStart_toStartOf="@id/btn_catolica"
         app:layout_constraintTop_toBottomOf="@id/btn_catolica"
-        app:srcCompat="@drawable/independiente" />
+        app:srcCompat="@drawable/huachipato" />
 
     <ImageButton
         android:id="@+id/btn_nublense"
@@ -107,7 +107,7 @@
         android:scaleType="centerInside"
         app:layout_constraintStart_toEndOf="@id/btn_huachipato"
         app:layout_constraintTop_toTopOf="@id/btn_huachipato"
-        app:srcCompat="@drawable/godoy" />
+        app:srcCompat="@drawable/_ublense" />
 
     <ImageButton
         android:id="@+id/btn_coquimbo"
@@ -117,5 +117,6 @@
         android:scaleType="centerInside"
         app:layout_constraintStart_toEndOf="@id/btn_nublense"
         app:layout_constraintTop_toTopOf="@id/btn_nublense"
-        app:srcCompat="@drawable/newells" />
+        app:srcCompat="@drawable/coquimbo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

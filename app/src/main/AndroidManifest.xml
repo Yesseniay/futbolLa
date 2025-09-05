@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FutbolLa">
         <activity
+            android:name=".equipos_chile"
+            android:exported="false" />
+        <activity
             android:name=".equipos_argentina"
             android:exported="false" />
         <activity
