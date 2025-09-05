@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainbrasil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030B38"
+    tools:context=".Brasil"
+    tools:layout_editor_absoluteX="47dp"
+    tools:layout_editor_absoluteY="175dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="327dp"
+        android:layout_height="101dp"
+        android:text="Selección de Brasil"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <ImageButton
+        android:id="@+id/crichumaButton"
+        android:layout_width="141dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/crichuma"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <ImageButton
+        android:id="@+id/camButton"
+        android:layout_width="141dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/cam"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <ImageButton
+        android:id="@+id/chpButton"
+        android:layout_width="141dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/chp"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <ImageButton
+        android:id="@+id/estreButton"
+        android:layout_width="141dp"
+        android:layout_height="151dp"
+        app:srcCompat="@drawable/estre"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="777dp" />
+
+    <ImageButton
+        android:id="@+id/acfButton"
+        android:layout_width="141dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/acf"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <ImageButton
+        android:id="@+id/corIthiansButton"
+        android:layout_width="141dp"
+        android:layout_height="151dp"
+        app:srcCompat="@drawable/corithians"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <ImageButton
+        android:id="@+id/clubButton"
+        android:layout_width="141dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/cruzeiro"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <ImageButton
+        android:id="@+id/cruzeiroButton"
+        android:layout_width="141dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/club"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="778dp" />
+
+    <ImageButton
+        android:id="@+id/cfcButton"
+        android:layout_width="141dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/cfc"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="987dp" />
+
+    <ScrollView
+        android:layout_width="427dp"
+        android:layout_height="1086dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="106dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
