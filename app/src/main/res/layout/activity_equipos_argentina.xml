@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA020A3F"
+    tools:context=".equipos_argentina">
+
+    <!-- Titulo -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Equipos de Argentina"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Botones fila 1 -->
+
+    <ImageButton
+        android:id="@+id/btn_boca"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:srcCompat="@drawable/boca" />
+
+    <ImageButton
+        android:id="@+id/btn_river"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/btn_boca"
+        app:layout_constraintTop_toTopOf="@id/btn_boca"
+        app:srcCompat="@drawable/river" />
+
+    <ImageButton
+        android:id="@+id/btn_racing"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/btn_river"
+        app:layout_constraintTop_toTopOf="@id/btn_river"
+        app:srcCompat="@drawable/racing" />
+
+    <!-- Botones fila 2 -->
+
+    <ImageButton
+        android:id="@+id/btn_estudiantes"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="@id/btn_boca"
+        app:layout_constraintTop_toBottomOf="@id/btn_boca"
+        app:srcCompat="@drawable/estudiantes" />
+
+    <ImageButton
+        android:id="@+id/btn_huracan"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/btn_estudiantes"
+        app:layout_constraintTop_toTopOf="@id/btn_estudiantes"
+        app:srcCompat="@drawable/huracan" />
+
+    <ImageButton
+        android:id="@+id/btn_velez"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/btn_huracan"
+        app:layout_constraintTop_toTopOf="@id/btn_huracan"
+        app:srcCompat="@drawable/velez" />
+
+    <!-- Botones fila 3 -->
+
+    <ImageButton
+        android:id="@+id/btn_independiente"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="@id/btn_estudiantes"
+        app:layout_constraintTop_toBottomOf="@id/btn_estudiantes"
+        app:srcCompat="@drawable/independiente" />
+
+    <ImageButton
+        android:id="@+id/btn_godoy"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/btn_independiente"
+        app:layout_constraintTop_toTopOf="@id/btn_independiente"
+        app:srcCompat="@drawable/godoy" />
+
+    <ImageButton
+        android:id="@+id/btn_newells"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/btn_godoy"
+        app:layout_constraintTop_toTopOf="@id/btn_godoy"
+        app:srcCompat="@drawable/newells" />
+</androidx.constraintlayout.widget.ConstraintLayout>
