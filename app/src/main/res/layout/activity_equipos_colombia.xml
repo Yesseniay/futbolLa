@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA020A3F"
+    tools:context=".equipos_colombia">
+
+    <!-- Titulo -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Equipos de Colombia"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Botones fila 1 -->
+
+    <ImageButton
+        android:id="@+id/btn_america"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:srcCompat="@drawable/america" />
+
+    <ImageButton
+        android:id="@+id/btn_millonarios"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/btn_america"
+        app:layout_constraintTop_toTopOf="@id/btn_america"
+        app:srcCompat="@drawable/millonarios" />
+
+    <ImageButton
+        android:id="@+id/btn_junior"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/btn_millonarios"
+        app:layout_constraintTop_toTopOf="@id/btn_millonarios"
+        app:srcCompat="@drawable/junior" />
+
+    <!-- Botones fila 2 -->
+
+    <ImageButton
+        android:id="@+id/btn_buca"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="@id/btn_america"
+        app:layout_constraintTop_toBottomOf="@id/btn_america"
+        app:srcCompat="@drawable/buca" />
+
+    <ImageButton
+        android:id="@+id/btn_santa"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/btn_buca"
+        app:layout_constraintTop_toTopOf="@id/btn_buca"
+        app:srcCompat="@drawable/santa" />
+
+    <ImageButton
+        android:id="@+id/btn_dep.cali"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/btn_santa"
+        app:layout_constraintTop_toTopOf="@id/btn_santa"
+        app:srcCompat="@drawable/dep_cali" />
+
+    <!-- Botones fila 3 -->
+
+    <ImageButton
+        android:id="@+id/btn_medellin"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="@id/btn_buca"
+        app:layout_constraintTop_toBottomOf="@id/btn_buca"
+        app:srcCompat="@drawable/medellin" />
+
+    <ImageButton
+        android:id="@+id/btn_atl.nacional"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/btn_medellin"
+        app:layout_constraintTop_toTopOf="@id/btn_medellin"
+        app:srcCompat="@drawable/atl_nacional" />
+
+    <ImageButton
+        android:id="@+id/btn_tolima"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/btn_atl.nacional"
+        app:layout_constraintTop_toTopOf="@id/btn_atl.nacional"
+        app:srcCompat="@drawable/tolima" />
+</androidx.constraintlayout.widget.ConstraintLayout>
