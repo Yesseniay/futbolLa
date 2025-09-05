@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainperu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030B38"
+    tools:context=".MainActivitjugadorDEP">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="395dp"
+        android:layout_height="575dp"
+        app:srcCompat="@drawable/jugadoresdep"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="396dp"
+        android:layout_height="362dp"
+        app:srcCompat="@drawable/jugadoresdep2"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <ImageButton
+        android:id="@+id/volverdepButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        tools:layout_editor_absoluteX="12dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

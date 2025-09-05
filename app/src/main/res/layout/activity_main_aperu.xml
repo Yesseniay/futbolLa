@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/mainperu"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#030B38"
@@ -20,14 +20,6 @@
         android:textStyle="bold"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="37dp" />
-
-    <ImageButton
-        android:id="@+id/limaButton"
-        android:layout_width="177dp"
-        android:layout_height="146dp"
-        app:srcCompat="@drawable/alianza"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="103dp" />
 
     <ImageButton
         android:id="@+id/arequipaButton"
@@ -68,4 +60,13 @@
         app:srcCompat="@drawable/uni"
         tools:layout_editor_absoluteX="236dp"
         tools:layout_editor_absoluteY="477dp" />
+
+    <ImageButton
+        android:id="@+id/alianzalimaaButton8"
+        android:layout_width="164dp"
+        android:layout_height="145dp"
+        app:srcCompat="@drawable/alianzalima"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="105dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
