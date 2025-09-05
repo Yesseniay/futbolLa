@@ -22,7 +22,7 @@
         tools:layout_editor_absoluteY="37dp" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/limaButton"
         android:layout_width="177dp"
         android:layout_height="146dp"
         app:srcCompat="@drawable/alianza"
@@ -30,7 +30,7 @@
         tools:layout_editor_absoluteY="103dp" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/arequipaButton"
         android:layout_width="167dp"
         android:layout_height="150dp"
         app:srcCompat="@drawable/arequipa"
@@ -38,7 +38,7 @@
         tools:layout_editor_absoluteY="105dp" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/cdmButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/cdp"
@@ -46,7 +46,7 @@
         tools:layout_editor_absoluteY="279dp" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/chiclayoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/chiclayo"
@@ -54,7 +54,7 @@
         tools:layout_editor_absoluteY="279dp" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/cuzcobutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/cuzco"
@@ -62,7 +62,7 @@
         tools:layout_editor_absoluteY="477dp" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/uniButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/uni"
