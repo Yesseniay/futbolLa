@@ -2,18 +2,84 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#FA020A3F"
+    tools:context=".paises">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Seleccionar País"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_brasil"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:srcCompat="@drawable/brasil" />
+
+    <ImageButton
+        android:id="@+id/btn_argentina"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="75dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/btn_brasil"
+        app:layout_constraintTop_toTopOf="@id/btn_brasil"
+        app:srcCompat="@drawable/argentina" />
+
+    <ImageButton
+        android:id="@+id/btn_colombia"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="@id/btn_brasil"
+        app:layout_constraintTop_toBottomOf="@id/btn_brasil"
+        app:srcCompat="@drawable/colombia" />
+
+    <ImageButton
+        android:id="@+id/btn_chile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerInside"
+        app:layout_constraintTop_toTopOf="@id/btn_colombia"
+        app:layout_constraintStart_toEndOf="@id/btn_colombia"
+        android:layout_marginStart="75dp"
+        app:srcCompat="@drawable/chile" />
+
+    <ImageButton
+        android:id="@+id/btn_uruguay"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="@id/btn_colombia"
+        app:layout_constraintTop_toBottomOf="@id/btn_colombia"
+        app:srcCompat="@drawable/uruguay" />
+
+    <ImageButton
+        android:id="@+id/btn_peru"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="75dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@id/btn_uruguay"
+        app:layout_constraintTop_toTopOf="@id/btn_uruguay"
+        app:srcCompat="@drawable/peru" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
