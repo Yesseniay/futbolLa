@@ -20,8 +20,8 @@
         android:textColor="@color/white"
         android:textSize="34sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="37dp" />
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <ImageButton
         android:id="@+id/crichumaButton"
@@ -99,7 +99,7 @@
         android:layout_width="427dp"
         android:layout_height="1086dp"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="106dp">
+        tools:layout_editor_absoluteY="113dp">
 
         <LinearLayout
             android:layout_width="match_parent"
